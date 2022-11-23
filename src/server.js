@@ -19,7 +19,7 @@ const userRouter = require('./users/usersRoutes')
 app.use(userRouter);
 
 // Set up port
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 3001;
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
